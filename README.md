@@ -45,8 +45,8 @@ To get started with Lachoo Connect, follow the steps below:
 
 Before running the application, ensure you have the following installed on your system:
 
-- Node.js (https://nodejs.org) - Version X.X.X
-- NPM (Node Package Manager) - Version X.X.X
+- Node.js (https://nodejs.org) - 
+- NPM (Node Package Manager) - 
 
 ### Installation
 
@@ -107,5 +107,3 @@ If you find any issues or have ideas for improvements, please feel free to contr
 
 This project is licensed under the [MIT License](LICENSE).
 
----
-_Replace "Lachoo Connect" with your actual project name above. Make sure to update the "Prerequisites" section with the correct version of Node.js and NPM required for your project. If there are any other specific instructions or notes you want to include, feel free to add them. Additionally, the provided screenshots are for illustration purposes; replace them with actual screenshots from your app._
