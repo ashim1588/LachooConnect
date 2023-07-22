@@ -1,0 +1,113 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+nav .navbar {
+  padding-left: 5rem;
+  background-color: transparent;
+  max-height: "100px";
+  padding-left: "1rem";
+  font-size: "20px";
+  font-weight: "bold";
+}
+
+.nav-item {
+  /* border: 2px solid red; */
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #c9e8eb;
+}
+
+.nav-item {
+  padding: 10px;
+
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: bold;
+  background: none;
+
+  /* margin: 2rem 3rem 2rem 3rem; */
+  color: inherit;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10%;
+  /* background-color: #e8f6ef;  */
+}
+.nav-header img {
+  width: 5rem;
+  margin-left: 3rem;
+  padding: 0.3rem;
+}
+.nav-header h1 {
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 2rem;
+}
+.nav-header button {
+  margin-right: 3rem;
+  text-align: center;
+  margin-top: 1.5rem;
+  /* padding: 0.3rem; */
+}
+.nav-header button {
+  /* text-align: center; */
+  display: inline-block;
+  /* padding: 0.3rem 2rem; */
+  padding: 0.4rem;
+  border-radius: 1rem;
+  width: 5rem;
+  text-align: center;
+  background: rgb(26, 179, 109);
+  font-size: 0.9rem;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 10%);
+  transition: all 0.3s linear;
+  border: none;
+}
+
+.nav-header button:hover {
+  transform: scale(1.1);
+}
+
+.active {
+  /* background-color: #86340a; */
+  color: #f10a0a;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-header img {
+    margin-left: 0.3rem;
+    width: 3rem;
+    /* justify-content: space-evenly; */
+  }
+  .nav-header button {
+    font-size: 0.7rem;
+    width: 4rem;
+    /* text-align: center; */
+    margin-right: 0.4rem;
+    margin-top: 1rem;
+    padding: 0.2rem;
+  }
+  .nav-header h1 {
+    font-size: 1.5rem;
+    margin-top: 0.7rem;
+  }
+  .navBar a {
+    font-size: 0.8rem;
+    padding: 0.8rem;
+  }
+}
+.nav-header img {
+  width: 5rem;
+  margin-left: 3rem;
+  padding: 0.3rem;
+}

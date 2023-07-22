@@ -1,0 +1,31 @@
+.mid-header {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background: #333b47;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+img {
+  border: none;
+  width: 100px;
+  /* max-width: 100%; */
+  height: auto;
+}
+
+.lg-yellow {
+  color: #ffb052 !important;
+}
+
+.txtcenter {
+  text-align: center !important;
+}
+
+.f26 {
+  font-size: 26px !important;
+}
+.grey {
+  color: #ccc !important;
+}
+
+.paddb10 {
+  padding-bottom: 10px;
+}
