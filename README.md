@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+# Lachoo Connect
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![slid1](https://github.com/ashim1588/LachooConnect/assets/87517867/15c601b6-7081-4d35-a13b-8b95800e20ad)
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+Lachoo Connect is an Alumni App for our college, Lachoo Memorial College. The app serves as a platform for alumni to connect with each other, share their experiences, and stay updated on each other's current endeavors. It utilizes Firebase for database management and authentication and has been developed using React.
 
-### `npm start`
+With Lachoo Connect, alumni can view profiles of other alumni and learn about their professional accomplishments and activities. The app fosters a sense of community among former students, enabling them to network, mentor, and collaborate with each other.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Screenshots
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Here are some screenshots of the Lachoo Connect app:
 
-### `npm test`
+![Screenshot 2023-07-21 at 9 22 29 PM](https://github.com/ashim1588/LachooConnect/assets/87517867/841c544d-ca17-4fd7-909b-bf07232bccd9)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+_Description: Login Page._
 
-### `npm run build`
+![Screenshot 2023-07-21 at 9 22 38 PM](https://github.com/ashim1588/LachooConnect/assets/87517867/dfd93795-5663-4529-8e92-a4b1440e095e)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+_Description: Signup Page._
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Screenshot 2023-07-21 at 9 21 47 PM](https://github.com/ashim1588/LachooConnect/assets/87517867/1705b14f-3887-4c91-a086-50ca40e9e930)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+_Description: Home Page._
 
-### `npm run eject`
+![Screenshot 2023-07-21 at 9 22 22 PM](https://github.com/ashim1588/LachooConnect/assets/87517867/69c619af-7e00-47d0-b9f1-97eac04eb8cf)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+_Description: User Profile Page._
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Screenshot 2023-07-21 at 9 21 58 PM](https://github.com/ashim1588/LachooConnect/assets/87517867/d70cf326-c371-40a4-8c6d-ded87b367488)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+_Description: Feed Page._
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Screenshot 2023-07-21 at 9 22 10 PM](https://github.com/ashim1588/LachooConnect/assets/87517867/6989efa8-71fe-454a-9262-2105673797e8)
 
-## Learn More
+_Description: Find Alumni Page displaying details of all the alumni._
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Getting Started
 
-### Code Splitting
+To get started with Lachoo Connect, follow the steps below:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Prerequisites
 
-### Analyzing the Bundle Size
+Before running the application, ensure you have the following installed on your system:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Node.js (https://nodejs.org) - Version X.X.X
+- NPM (Node Package Manager) - Version X.X.X
 
-### Making a Progressive Web App
+### Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Clone this repository to your local machine or download the zip file and extract it.
+2. Navigate to the project directory using the command line.
 
-### Advanced Configuration
+### Setup API Keys
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+You need to add your API keys in a `.env` file. Follow the instructions below:
 
-### Deployment
+1. In the root directory of the project, create a new file named `.env`.
+2. Add your Firebase API keys in the `.env` file using the following format:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+   ```
+   REACT_APP_FIREBASE_API_KEY=YOUR_FIREBASE_API_KEY_HERE
+   REACT_APP_FIREBASE_AUTH_DOMAIN=YOUR_FIREBASE_AUTH_DOMAIN_HERE
+   REACT_APP_FIREBASE_PROJECT_ID=YOUR_FIREBASE_PROJECT_ID_HERE
+   REACT_APP_FIREBASE_STORAGE_BUCKET=YOUR_FIREBASE_STORAGE_BUCKET_HERE
+   REACT_APP_FIREBASE_MESSAGING_SENDER_ID=YOUR_FIREBASE_MESSAGING_SENDER_ID_HERE
+   REACT_APP_FIREBASE_APP_ID=YOUR_FIREBASE_APP_ID_HERE
+   ```
 
-### `npm run build` fails to minify
+3. Save the `.env` file.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Running the Application
+
+1. Open the command line and ensure you are in the project root directory.
+2. Run the following command to install the required dependencies:
+
+   ```
+   npm install
+   ```
+
+3. After the installation is complete, start the application with:
+
+   ```
+   npm start
+   ```
+
+4. The application will now be accessible at `http://localhost:3000` in your web browser.
+
+## Contributing
+
+If you find any issues or have ideas for improvements, please feel free to contribute to the Lachoo Connect project. Here's how you can do it:
+
+1. Fork this repository to your GitHub account.
+2. Create a new branch from the `main` branch with a descriptive name, e.g., `feature/new-feature` or `bugfix/issue-123`.
+3. Make your changes and commit them with a clear and concise message.
+4. Push your changes to your forked repository.
+5. Submit a pull request to the `main` branch of this repository, explaining your changes.
+
+## Known Issues
+
+- The application might have some bugs due to its limited development time.
+- Certain functionalities are still under development and might not be fully implemented.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+_Replace "Lachoo Connect" with your actual project name above. Make sure to update the "Prerequisites" section with the correct version of Node.js and NPM required for your project. If there are any other specific instructions or notes you want to include, feel free to add them. Additionally, the provided screenshots are for illustration purposes; replace them with actual screenshots from your app._
